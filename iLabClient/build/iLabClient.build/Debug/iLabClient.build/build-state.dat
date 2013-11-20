@@ -1,0 +1,173 @@
+TiLabClient
+v7
+r0
+t323919488.472978
+cCheck dependencies
+cCompileC build/iLabClient.build/Debug/iLabClient.build/Objects-normal/x86_64/main.o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug/iLabClient" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/GLUI.framework/GLUI
+c0000000049502B89000000000016D590
+t1229990793
+s1496464
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/GLUI.framework/Headers/glui.h
+c0000000049502B690000000000017821
+t1229990761
+s96289
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004BF4700F000000000001A494
+t1274310671
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B489326000000000000578C
+t1263047462
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004BE91B5D0000000000001659
+t1273568093
+s5721
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004BF47010000000000000DB14
+t1274310672
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h
+c000000004AC59C810000000000000588
+t1254464641
+s1416
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004AC598620000000000001533
+t1254463586
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B90BBA5000000000000539D
+t1267776421
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h
+c000000004B90BBAA00000000000016A2
+t1267776426
+s5794
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B90BBAA00000000000059BC
+t1267776426
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug/iLabClient
+t1302215474
+s38520
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/Objects-normal/x86_64/iLabClient.LinkFileList
+c000000004D5F52A5000000000000008F
+t1298092709
+s143
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/Objects-normal/x86_64/main.o
+t1302215470
+s143772
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/headers.h
+c000000004D9E178900000000000006BE
+t1302206345
+s1726
+i<GLUT/GLUT.h>
+i<GLUI/GLUI.h>
+i<OpenGL/OpenGL.h>
+i<alloca.h>
+i<gl/glut.h>
+i<gl/glui.h>
+i<malloc.h>
+i<iostream>
+i<stdlib.h>
+i<math.h>
+i<string.h>
+i<sstream>
+i<sys/types.h>
+i<sys/socket.h>
+i<sys/select.h>
+i<netinet/in.h>
+i<errno.h>
+i<arpa/inet.h>
+i<fcntl.h>
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/main.cpp
+c000000004D9E3B2A00000000000036B1
+t1302215466
+s14001
+i"headers.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323919488#323919488#0(0"0(0#1#0"8633586240#0"0#
+
+CCompileC build/iLabClient.build/Debug/iLabClient.build/Objects-normal/x86_64/main.o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s323908273.670190
+e323908273.671564
+r1
+xCompileC
+xbuild/iLabClient.build/Debug/iLabClient.build/Objects-normal/x86_64/main.o
+x/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/main.cpp323908273#323908273#0(0"0(0#0#76"/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/main.cpp8616886176#1686"    cd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/iLabClient-generated-files.hmap" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/iLabClient-own-target-headers.hmap" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/iLabClient-all-target-headers.hmap" -iquote "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/iLabClient-project-headers.hmap" "-F/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug/include" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/DerivedSources/x86_64" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/DerivedSources" -c "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/main.cpp" -o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug/iLabClient" normal x86_64
+s323908273.671652
+e323908274.392835
+r1
+xLd
+x/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug/iLabClient
+xnormal
+xx86_64
+lSLF07#2@95"Link /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug/iLabClient323908273#323908274#0(0"0(0#0#0"8615354432#715"    cd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug" "-F/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug" -filelist "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/iLabClient.build/Debug/iLabClient.build/Objects-normal/x86_64/iLabClient.LinkFileList" -mmacosx-version-min=10.6 -framework OpenGL -framework GLUI -framework GLUT -o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabClient/build/Debug/iLabClient"0#
+

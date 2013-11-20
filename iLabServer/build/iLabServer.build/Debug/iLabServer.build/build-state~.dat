@@ -1,0 +1,126 @@
+TiLabServer
+v7
+r0
+t319727089.498538
+cCheck dependencies
+cCompileC build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer
+t2
+s0
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/iLabServer.LinkFileList
+c000000004D5E6E71000000000000008F
+t1298034289
+s143
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o
+t1298034280
+s94020
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp
+c000000004D5E6E6F0000000000000927
+t1298034287
+s2343
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319727089#319727089#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s319727089.399390
+e319727089.403950
+r1
+xCompileC
+xbuild/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o
+x/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp319727089#319727089#0(0"0(0#0#76"/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp8660259774160596992#1686"    cd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-generated-files.hmap" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-own-target-headers.hmap" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-all-target-headers.hmap" -iquote "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-project-headers.hmap" "-F/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/include" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/DerivedSources/x86_64" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/DerivedSources" -c "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp" -o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer" normal x86_64
+s319727089.404044
+e319727089.498482
+r0
+xLd
+x/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer
+xnormal
+xx86_64
+oUndefined symbols:
+o  "_glutInitWindowSize", referenced from:
+o      _main in main.o
+o  "_glEnable", referenced from:
+o      myGlutDisplay()     in main.o
+o  "GLUI_Spinner::GLUI_Spinner(GLUI_Node*, char const*, int*, int, GLUI_CB)", referenced from:
+o      _main in main.o
+o  "_glutInitWindowPosition", referenced from:
+o      _main in main.o
+o  "_glutGet", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "_glDisable", referenced from:
+o      myGlutDisplay()     in main.o
+o  "_glRasterPos2i", referenced from:
+o      myGlutDisplay()     in main.o
+o  "GLUI_Spinner::set_int_limits(int, int, int)", referenced from:
+o      _main in main.o
+o  "_glutBitmapCharacter", referenced from:
+o      myGlutDisplay()     in main.o
+o  "_glLoadIdentity", referenced from:
+o      myGlutDisplay()     in main.o
+o      myGlutDisplay()     in main.o
+o  "_glutDisplayFunc", referenced from:
+o      _main in main.o
+o  "GLUI_Master_Object::set_glutIdleFunc(void (*)())", referenced from:
+o      _main in main.o
+o  "_glMatrixMode", referenced from:
+o      myGlutDisplay()     in main.o
+o      myGlutDisplay()     in main.o
+o  "_glutInitDisplayMode", referenced from:
+o      _main in main.o
+o  "_glutSetWindow", referenced from:
+o      myGlutIdle()     in main.o
+o  "_glutCreateWindow", referenced from:
+o      _main in main.o
+o  "_GLUI_Master", referenced from:
+o      _main in main.o
+o      _main in main.o
+o  "GLUI_Master_Object::create_glui(char const*, long, int, int)", referenced from:
+o      _main in main.o
+o  "_glutMainLoop", referenced from:
+o      _main in main.o
+o  "_gluOrtho2D", referenced from:
+o      myGlutDisplay()     in main.o
+o  "_glutInit", referenced from:
+o      _main in main.o
+o  "_glClearColor", referenced from:
+o      myGlutDisplay()     in main.o
+o  "GLUI::set_main_gfx_window(int)", referenced from:
+o      _main in main.o
+o  "GLUI_Checkbox::GLUI_Checkbox(GLUI_Node*, char const*, int*, int, GLUI_CB)", referenced from:
+o      _main in main.o
+o  "_glutSwapBuffers", referenced from:
+o      myGlutDisplay()     in main.o
+o  "_glutPostRedisplay", referenced from:
+o      myGlutIdle()     in main.o
+o  "_glClear", referenced from:
+o      myGlutDisplay()     in main.o
+o  "_glutBitmapHelvetica18", referenced from:
+o      myGlutDisplay()     in main.o
+o  "_glColor3ub", referenced from:
+o      myGlutDisplay()     in main.o
+o  "_glutGetWindow", referenced from:
+o      myGlutIdle()     in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@95"Link /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer319727089#319727089#0(2416"Undefined symbols:  "_glutInitWindowSize", referenced from:      _main in main.o  "_glEnable", referenced from:      myGlutDisplay()     in main.o  "GLUI_Spinner::GLUI_Spinner(GLUI_Node*, char const*, int*, int, GLUI_CB)", referenced from:      _main in main.o  "_glutInitWindowPosition", referenced from:      _main in main.o  "_glutGet", referenced from:      _main in main.o      _main in main.o  "_glDisable", referenced from:      myGlutDisplay()     in main.o  "_glRasterPos2i", referenced from:      myGlutDisplay()     in main.o  "GLUI_Spinner::set_int_limits(int, int, int)", referenced from:      _main in main.o  "_glutBitmapCharacter", referenced from:      myGlutDisplay()     in main.o  "_glLoadIdentity", referenced from:      myGlutDisplay()     in main.o      myGlutDisplay()     in main.o  "_glutDisplayFunc", referenced from:      _main in main.o  "GLUI_Master_Object::set_glutIdleFunc(void (*)())", referenced from:      _main in main.o  "_glMatrixMode", referenced from:      myGlutDisplay()     in main.o      myGlutDisplay()     in main.o  "_glutInitDisplayMode", referenced from:      _main in main.o  "_glutSetWindow", referenced from:      myGlutIdle()     in main.o  "_glutCreateWindow", referenced from:      _main in main.o  "_GLUI_Master", referenced from:      _main in main.o      _main in main.o  "GLUI_Master_Object::create_glui(char const*, long, int, int)", referenced from:      _main in main.o  "_glutMainLoop", referenced from:      _main in main.o  "_gluOrtho2D", referenced from:      myGlutDisplay()     in main.o  "_glutInit", referenced from:      _main in main.o  "_glClearColor", referenced from:      myGlutDisplay()     in main.o  "GLUI::set_main_gfx_window(int)", referenced from:      _main in main.o  "GLUI_Checkbox::GLUI_Checkbox(GLUI_Node*, char const*, int*, int, GLUI_CB)", referenced from:      _main in main.o  "_glutSwapBuffers", referenced from:      myGlutDisplay()     in main.o  "_glutPostRedisplay", referenced from:      myGlutIdle()     in main.o  "_glClear", referenced from:      myGlutDisplay()     in main.o  "_glutBitmapHelvetica18", referenced from:      myGlutDisplay()     in main.o  "_glColor3ub", referenced from:      myGlutDisplay()     in main.o  "_glutGetWindow", referenced from:      myGlutIdle()     in main.old: symbol(s) not foundcollect2: ld returned 1 exit status66(4@39""_glutInitWindowSize", referenced from:319727089#19#42#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#61#22#0(6@0"319727089#0#0#0#0#0"0(4@29""_glEnable", referenced from:319727089#83#32#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#115#36#0(6@0"319727089#0#0#0#0#0"0(4@91""GLUI_Spinner::GLUI_Spinner(GLUI_Node*, char const*, int*, int, GLUI_CB)", referenced from:319727089#151#94#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#245#22#0(6@0"319727089#0#0#0#0#0"0(4@43""_glutInitWindowPosition", referenced from:319727089#267#46#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#313#22#0(6@0"319727089#0#0#0#0#0"0(4@28""_glutGet", referenced from:319727089#335#31#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#366#22#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#388#22#0(6@0"319727089#0#0#0#0#0"0(4@30""_glDisable", referenced from:319727089#410#33#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#443#36#0(6@0"319727089#0#0#0#0#0"0(4@34""_glRasterPos2i", referenced from:319727089#479#37#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#516#36#0(6@0"319727089#0#0#0#0#0"0(4@63""GLUI_Spinner::set_int_limits(int, int, int)", referenced from:319727089#552#66#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#618#22#0(6@0"319727089#0#0#0#0#0"0(4@40""_glutBitmapCharacter", referenced from:319727089#640#43#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#683#36#0(6@0"319727089#0#0#0#0#0"0(4@35""_glLoadIdentity", referenced from:319727089#719#38#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#757#36#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#793#36#0(6@0"319727089#0#0#0#0#0"0(4@36""_glutDisplayFunc", referenced from:319727089#829#39#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#868#22#0(6@0"319727089#0#0#0#0#0"0(4@68""GLUI_Master_Object::set_glutIdleFunc(void (*)())", referenced from:319727089#890#71#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#961#22#0(6@0"319727089#0#0#0#0#0"0(4@33""_glMatrixMode", referenced from:319727089#983#36#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#1019#36#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#1055#36#0(6@0"319727089#0#0#0#0#0"0(4@40""_glutInitDisplayMode", referenced from:319727089#1091#43#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1134#22#0(6@0"319727089#0#0#0#0#0"0(4@34""_glutSetWindow", referenced from:319727089#1156#37#0(6@0"319727089#0#0#0#0#0"0(13@26"MyGlutIdle()     in main.o319727089#1193#33#0(6@0"319727089#0#0#0#0#0"0(4@37""_glutCreateWindow", referenced from:319727089#1226#40#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1266#22#0(6@0"319727089#0#0#0#0#0"0(4@32""_GLUI_Master", referenced from:319727089#1288#35#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1323#22#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1345#22#0(6@0"319727089#0#0#0#0#0"0(4@80""GLUI_Master_Object::create_glui(char const*, long, int, int)", referenced from:319727089#1367#83#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1450#22#0(6@0"319727089#0#0#0#0#0"0(4@33""_glutMainLoop", referenced from:319727089#1472#36#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1508#22#0(6@0"319727089#0#0#0#0#0"0(4@31""_gluOrtho2D", referenced from:319727089#1530#34#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#1564#36#0(6@0"319727089#0#0#0#0#0"0(4@29""_glutInit", referenced from:319727089#1600#32#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1632#22#0(6@0"319727089#0#0#0#0#0"0(4@33""_glClearColor", referenced from:319727089#1654#36#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#1690#36#0(6@0"319727089#0#0#0#0#0"0(4@50""GLUI::set_main_gfx_window(int)", referenced from:319727089#1726#53#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1779#22#0(6@0"319727089#0#0#0#0#0"0(4@93""GLUI_Checkbox::GLUI_Checkbox(GLUI_Node*, char const*, int*, int, GLUI_CB)", referenced from:319727089#1801#96#0(6@0"319727089#0#0#0#0#0"0(13@15"_main in main.o319727089#1897#22#0(6@0"319727089#0#0#0#0#0"0(4@36""_glutSwapBuffers", referenced from:319727089#1919#39#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#1958#36#0(6@0"319727089#0#0#0#0#0"0(4@38""_glutPostRedisplay", referenced from:319727089#1994#41#0(6@0"319727089#0#0#0#0#0"0(13@26"MyGlutIdle()     in main.o319727089#2035#33#0(6@0"319727089#0#0#0#0#0"0(4@28""_glClear", referenced from:319727089#2068#31#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#2099#36#0(6@0"319727089#0#0#0#0#0"0(4@42""_glutBitmapHelvetica18", referenced from:319727089#2135#45#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#2180#36#0(6@0"319727089#0#0#0#0#0"0(4@31""_glColor3ub", referenced from:319727089#2216#34#0(6@0"319727089#0#0#0#0#0"0(13@29"MyGlutDisplay()     in main.o319727089#2250#36#0(6@0"319727089#0#0#0#0#0"0(4@34""_glutGetWindow", referenced from:319727089#2286#37#0(6@0"319727089#0#0#0#0#0"0(13@26"MyGlutIdle()     in main.o319727089#2323#33#0(6@0"319727089#0#0#0#0#0"0(13@19"Symbol(s) not found319727089#2356#24#0(6@0"319727089#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status319727089#2380#36#0(6@0"319727089#0#0#0#0#0"0(0#0#0"8598951712#665"    cd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug" "-F/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug" -filelist "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/iLabServer.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer"1#
+

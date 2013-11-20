@@ -1,0 +1,184 @@
+/* This is the echo client. */
+
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <string.h>
+#include <stdlib.h>
+#include <errno.h>
+
+#define SERVERPORT		atoi(argv[1])
+#define MESSAGE_SIZE 		10000
+
+
+
+int main(int argc, char * argv[])
+{
+
+	/* Local variables */
+	int sockfd, ret_connect, recv_bytes, send_bytes, yes = 1;
+	struct sockaddr_in server_addr;
+	char msg[MESSAGE_SIZE];
+
+
+	if(argc != 3) {
+		printf("\nUsage: <executable> <server_port_number> <d / u>\n");
+		exit(1);
+	}
+
+
+/* ------------------- Initialize connection ------------------*/
+
+	/* Get a socket file descriptor */
+	sockfd = socket(PF_INET, SOCK_STREAM, 0);
+
+	if(sockfd == -1)
+		perror("socket");
+		
+	/* Enable reuse of the port number immediately after program
+	 * termination.
+	 */
+	if(setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(int)) == -1)
+		perror("setsockopt");
+
+	/* Recall struct sockaddr_in: 
+	 * 
+	 * struct sockaddr_in {
+	 * 	short int 		sin_family;
+	 	unsigned short int 	sin_port;
+	 	struct in_addr 		sin_addr;
+	 	unsigned char		sin_zero;	
+	 * };
+	 * 
+	 * Recall struct in_addr:
+	 * 
+	 * struct in_addr {
+	 	unsigned long 		s_addr;
+	 * }
+	*/
+	
+	
+	server_addr.sin_family = AF_INET; 				/* Host byte order */
+	server_addr.sin_port = htons(SERVERPORT);			/* Network byte order */
+	server_addr.sin_addr.s_addr = INADDR_ANY;		 	/* Get my IP address */
+	memset(&(server_addr.sin_zero), '\0', 8); 			/* Zero it out */
+		
+	/* Try connecting to the server. */	
+	ret_connect = connect(sockfd, (struct sockaddr *)&server_addr, sizeof(struct sockaddr));	
+	
+	if(ret_connect == -1)
+		perror("connect");
+	
+/* ------------ End of connection initialization -------------- */
+
+
+/* --------------------- Start communicating ------------------ */
+	
+	/* You start by sending a message to the server. */
+	char option[10];
+	strcpy(msg, argv[2]);
+	strcpy(option, msg);
+	send_bytes = send(sockfd, (void *)msg, strlen(msg), 0);
+	
+	if(send_bytes != -1) {
+		printf("\nThe %s request is sent to the server", msg);
+	} else 
+		perror("send");
+	
+	
+	/* You expect the server's reply. */
+	recv_bytes = recv(sockfd, (void *)msg, sizeof(msg), 0);
+	
+	if(recv_bytes != -1) {
+		if(recv_bytes > 0) {
+			msg[recv_bytes] = '\0';
+			printf("\n%s", msg);
+		} else if (recv_bytes == 0)
+			printf("\nThe server closed the connection!\n");	
+	} else 
+		perror("recv");	
+	
+
+	
+	switch (option[0]) {
+		case 'd':
+			scanf("%s",msg);
+			send_bytes = send(sockfd, (void *)msg, strlen(msg), 0);
+			if(send_bytes != -1) {
+				printf("\n%s is send to the server\n",msg);
+			} else 
+				perror("send");
+			
+			
+			recv_bytes = recv(sockfd, (void *)msg, sizeof(msg), 0);
+			if(recv_bytes != -1) {
+				if(recv_bytes > 0) {
+					msg[recv_bytes] = '\0';
+										
+					FILE * pFile;
+					long lSize;
+					size_t result;
+					char *buffer;
+					
+					
+					pFile = fopen ( "d1.txt" , "w" ); 		// Open file
+					fprintf(pFile, "%s\n", msg);
+					fclose(pFile);
+					
+				} else if (recv_bytes == 0)
+					printf("\nThe server closed the connection!\n");	
+			} else 
+				perror("recv");
+			
+			break;
+
+			
+		case 'u':
+			scanf("%s",msg);
+			
+			
+			FILE * pFile;
+			long lSize;
+			size_t result;
+			char *buffer;
+			
+			pFile = fopen ( msg , "r" ); 		// Open file
+			
+			fseek (pFile , 0 , SEEK_END);			// Seek end of file
+			lSize = ftell (pFile);				// Calculate length of file
+			rewind (pFile);					// Go back to start
+			
+			buffer = (char*) malloc (sizeof(char)*lSize);	// Allocate memory to read file
+			result = fread (buffer,1,lSize,pFile);		// Read file
+			
+			fclose(pFile);
+			strcpy(msg,buffer);	
+			
+
+			
+			send_bytes = send(sockfd, (void *)msg, strlen(msg), 0);
+			
+			if(send_bytes != -1) {
+				printf("List of files is sent to the client.\n\n");
+			} else 
+				perror("send");
+			
+			break;
+	
+			
+	
+		default:
+			break;
+	}
+	
+	
+/* ------------------ Release all resources -------------------*/
+	
+	close(sockfd);		
+	
+	return 0;
+}
+
+
+

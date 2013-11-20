@@ -1,0 +1,175 @@
+TiLabServer
+v7
+r0
+t323919479.373695
+cCheck dependencies
+cCompileC build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/GLUI.framework/GLUI
+c0000000049502B89000000000016D590
+t1229990793
+s1496464
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/GLUI.framework/Headers/glui.h
+c0000000049502B690000000000017821
+t1229990761
+s96289
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004BF4700F000000000001A494
+t1274310671
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B489326000000000000578C
+t1263047462
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c000000004BE91B5D0000000000001659
+t1273568093
+s5721
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004BF47010000000000000DB14
+t1274310672
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/alloca.h
+c000000004AC59C810000000000000588
+t1254464641
+s1416
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004AC598620000000000001533
+t1254463586
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B90BBA5000000000000539D
+t1267776421
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
+c000000004B90BBA8000000000000116C
+t1267776424
+s4460
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h
+c000000004B90BBAA00000000000016A2
+t1267776426
+s5794
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B90BBAA00000000000059BC
+t1267776426
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer
+t1302218401
+s33832
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/iLabServer.LinkFileList
+c000000004D5E6E71000000000000008F
+t1298034289
+s143
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o
+t1302218383
+s193576
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/headers.h
+c000000004D9E3E0E00000000000006E4
+t1302216206
+s1764
+i<GLUT/GLUT.h>
+i<GLUI/GLUI.h>
+i<OpenGL/OpenGL.h>
+i<alloca.h>
+i<gl/glut.h>
+i<gl/glui.h>
+i<malloc.h>
+i<iostream.h>
+i<stdlib.h>
+i<math.h>
+i<string.h>
+i<sstream>
+i<fstream.h>
+i<sys/types.h>
+i<sys/socket.h>
+i<sys/select.h>
+i<sys/ioctl.h>
+i<netinet/in.h>
+i<errno.h>
+i<arpa/inet.h>
+i<fcntl.h>
+
+N/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp
+c000000004D9E468E0000000000004065
+t1302218382
+s16485
+i"headers.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323919479#323919479#0(0"0(0#1#0"8633304896#0"0#
+
+CCompileC build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s323911201.832489
+e323911201.834291
+r1
+xCompileC
+xbuild/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o
+x/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp323911201#323911201#0(978"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/iostream.h:31,                 from /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/headers.h:35,                 from /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp:11:/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated./Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp: In function 'void connectTo()':/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp:162: warning: unused variable 'x'2(22@354"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.323911201#306#451#4(7@98"In file included from /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp323911201#18446744073709551615#0#0(6@76"/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp323911182#11#0#11#0#0"0(7@99"In file included from /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/headers.h323911201#18446744073709551615#0#0(6@77"/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/headers.h323909006#35#0#35#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/iostream.h323911201#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/iostream.h289468984#31#0#31#0#0"0(13@438"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h323911201#18446744073709551615#0#0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h289468984#32#0#32#0#0"0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h289468984#32#0#32#0#10"#warning *0(22@19"Unused variable 'x'323911201#867#111#0(6@76"/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp323911182#162#0#162#0#19"unused variable '*'0(0#0#76"/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp8612894976#1686"    cd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-generated-files.hmap" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-own-target-headers.hmap" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-all-target-headers.hmap" -iquote "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/iLabServer-project-headers.hmap" "-F/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/include" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/DerivedSources/x86_64" "-I/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/DerivedSources" -c "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/main.cpp" -o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer" normal x86_64
+s323911201.834373
+e323911201.863422
+r1
+xLd
+x/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer
+xnormal
+xx86_64
+lSLF07#2@95"Link /Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer323911201#323911201#0(0"0(0#0#0"8603511776#715"    cd "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug" "-F/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug" -filelist "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/iLabServer.build/Debug/iLabServer.build/Objects-normal/x86_64/iLabServer.LinkFileList" -mmacosx-version-min=10.6 -framework OpenGL -framework GLUI -framework GLUT -o "/Users/dasaanand/Documents/notes/6thSem/NW minip/project/iLabServer/build/Debug/iLabServer"0#
+
